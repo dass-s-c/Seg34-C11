@@ -1,0 +1,55 @@
+name: 问题反馈 / Bug report
+description: 报告表盘显示、数据或设置问题 / Report a display, data, or settings problem
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: >
+        请先查看已有反馈。此表单公开，请勿附带个人资料、位置或健康数据。
+        Check existing issues first. This report is public. Leave out personal, location, and health information.
+  - type: dropdown
+    id: model
+    attributes:
+      label: 手表机型 / Watch model
+      options:
+        - fēnix 9 43 mm
+        - fēnix 9 47 mm
+        - fēnix 9 Pro 43 mm
+        - fēnix 9 Pro 47 mm
+        - fēnix 9 Pro 51 mm
+        - fēnix 9 Pro Solar 47 mm
+        - fēnix 9 Pro Solar 51 mm
+    validations:
+      required: true
+  - type: input
+    id: watch_face_version
+    attributes:
+      label: 表盘版本 / Watch face version
+    validations:
+      required: true
+  - type: input
+    id: watch_firmware
+    attributes:
+      label: 手表固件版本 / Watch firmware version
+    validations:
+      required: true
+  - type: input
+    id: system_language
+    attributes:
+      label: 手表系统语言 / Watch system language
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 现象与预期 / Actual and expected behavior
+      description: 请描述显示或设置的实际结果，以及你预期看到什么。 / Describe what happened and what you expected to see.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 请注明相关表盘设置、操作顺序及出现频率。 / Include the relevant settings, steps, and how often it happens.
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 查看版权与第三方许可 / Copyright and third-party notices
+    url: https://dass-s-c.github.io/Seg34-C11/notices/
+    about: 查看完整版权与第三方许可。 / Read the full copyright and third-party notices.
+  - name: 隐私说明 / Privacy policy
+    url: https://github.com/dass-s-c/Seg34-C11/blob/main/PRIVACY.md
+    about: 查看表盘权限及数据处理方式。 / Read about on-device permissions and data handling.

@@ -1,0 +1,33 @@
+name: 功能、字形与排版建议 / Feature and design feedback
+description: 建议功能调整，或反馈中文点阵字形与布局 / Suggest a feature, glyph, or layout change
+title: "[Suggestion] "
+body:
+  - type: markdown
+    attributes:
+      value: >
+        此表单公开。若附截图，请先裁掉个人资料、位置与健康数据。
+        This form is public. Crop personal, location, and health information out of screenshots.
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: 建议类型 / Feedback type
+      options:
+        - 功能与设置 / Features and settings
+        - 中文字形 / Chinese glyphs
+        - 排版与可读性 / Layout and legibility
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 使用场景 / Where you noticed it
+      description: 字形或排版意见可注明机型、表盘版本、字词与显示位置。 / For design feedback, include the model, watch face version, affected text, and its location.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 改进建议 / Suggested change
+      description: 请描述你希望如何调整，以及调整后对使用有什么帮助。 / Describe the change you would like and how it would help.
+    validations:
+      required: true
