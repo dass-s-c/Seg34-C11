@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Seg34-C11 · Garmin AMOLED 中文表盘</title>
-  <meta name="description" content="开源表盘 Segment34 Mk3 的中文改版，面向 Garmin AMOLED 手表。大号数码字显示时分，两行显示天气。中文点阵字显示农历日期和节气倒计时，可在手表上调整布局、预览配色。">
-  <meta property="og:title" content="Seg34-C11 · Garmin AMOLED 中文表盘">
-  <meta property="og:description" content="开源表盘 Segment34 Mk3 的中文改版，面向 Garmin AMOLED 手表。">
+  <title>Seg34-C11 · Garmin AMOLED 与 MIP 中文表盘</title>
+  <meta name="description" content="开源表盘 Segment34 Mk3 的中文改版，面向 Garmin AMOLED 和 MIP 手表。大号数码字显示时分，两行显示天气。中文点阵字显示农历日期和节气倒计时，可在手表上调整布局、预览配色。">
+  <meta property="og:title" content="Seg34-C11 · Garmin AMOLED 与 MIP 中文表盘">
+  <meta property="og:description" content="开源表盘 Segment34 Mk3 的中文改版，面向 Garmin AMOLED 和 MIP 手表。">
   <meta property="og:image" content="https://dass-s-c.github.io/Seg34-C11/images/fenix9-pro-47.png">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dass-s-c.github.io/Seg34-C11/">
@@ -40,7 +40,7 @@
         <h1 id="title">Seg34-C11</h1>
         <!-- Buy Me a Coffee: reserve the link here. -->
         <p class="hero-lede">
-          基于开源表盘 <a href="https://github.com/ludw/segment34mk3">Segment34 Mk3</a> 的中文改版，面向 Garmin AMOLED 手表。表盘中央用大号数码字显示时分，下方显示星期、农历日期和节气倒计时。可以直接在手表上调整布局、预览配色。
+          基于开源表盘 <a href="https://github.com/ludw/segment34mk3">Segment34 Mk3</a> 的中文改版，面向 Garmin AMOLED 和 MIP 手表。表盘中央用大号数码字显示时分，下方显示星期、农历日期和节气倒计时。可以直接在手表上调整布局、预览配色。
         </p>
       </div>
 
@@ -55,7 +55,7 @@
             <figcaption class="watch-meta">
               <span class="watch-model" lang="en">fēnix 9 Pro · 47 mm</span>
               <span class="watch-spec" lang="en">AMOLED · 454×454 · 24 px</span>
-              <span class="watch-status">AMOLED 版 1.0.1 已上架</span>
+              <span class="watch-status">AMOLED · 1.1.1</span>
             </figcaption>
           </figure>
 
@@ -68,7 +68,7 @@
             <figcaption class="watch-meta">
               <span class="watch-model" lang="en">fēnix 9 Pro Solar · 47 mm</span>
               <span class="watch-spec" lang="en">MIP · 260×260 · 15 px</span>
-              <span class="watch-status">MIP 版 1.1.0 待提交</span>
+              <span class="watch-status">MIP · 1.1.1</span>
             </figcaption>
           </figure>
         </div>
@@ -89,7 +89,7 @@
           <article class="ledger-row">
             <h3>天气独享两行，保留英文留白</h3>
             <p>
-              顶部为近 7 天活动趋势图，下方两行专给天气：第一行可自定义 4 项天气指标（如温度、风力、湿度、体感温度或降水概率），第二行留给英文天气状况（如 <span lang="en"><code>PARTLY CLOUDY</code></span>），简洁易读，不与日历挤在一起。
+              顶端可选飞翼或趋势图。支持天气的机型使用两行显示，第一行可自定义 4 项天气指标（如温度、风力、湿度、体感温度或降水概率），第二行留给英文天气状况（如 <span lang="en"><code>PARTLY CLOUDY</code></span>），简洁易读，不与日历挤在一起。
             </p>
           </article>
 
@@ -121,7 +121,7 @@
       <div class="wrap">
         <h2 id="glyphs-heading">Seg34 Block-Round 中文点阵字</h2>
         <p class="band-intro">
-          围绕星期、农历与二十四节气实际用到的 45 个汉字逐字绘制，分为 <strong>24 px</strong>（主流 AMOLED）与 <strong>15 px</strong>（360×360 AMOLED 及后续 MIP）两套纯 1-bit 点阵字，不靠生硬缩放，小屏上笔画照样清晰，也与主时间的数码字风格一致。
+          围绕星期、农历与二十四节气实际用到的 45 个汉字逐字绘制，分为 <strong>24 px</strong>（主流 AMOLED）与 <strong>15 px</strong>（360×360 AMOLED 及 MIP）两套纯 1-bit 点阵字，不靠生硬缩放，小屏上笔画照样清晰，也与主时间的数码字风格一致。
         </p>
 
         <figure class="specimen-figure">
@@ -132,7 +132,7 @@
             <span>展示「周、惊、蛰、满、霜、露」两套字号的笔画间隙。</span>
             <span class="specimen-legend">
               <span class="dot-amber">24 px · AMOLED</span>
-              <span class="dot-cyan">15 px · 360 px AMOLED / MIP（未上架）</span>
+              <span class="dot-cyan">15 px · 360 px AMOLED / MIP</span>
             </span>
           </figcaption>
         </figure>
@@ -235,7 +235,7 @@
             <div><dt>Forerunner / Venu / vívoactive</dt><dd>AMOLED</dd></div>
             <div><dt>epix / Instinct / Approach</dt><dd>AMOLED</dd></div>
           </dl>
-          <p class="support-copy"><a class="text-link" href="https://apps.garmin.com/apps/5e2d1f65-10e1-4c46-982b-9975ee0f48af">在 Connect IQ 下载 1.0.1</a>，覆盖 51 个 AMOLED 设备目标。1.1.0 已准备好，待提交商店，另含 25 个 MIP 目标，包括两款 Forerunner 255S 和 fēnix 5、5X、5 Plus。<a class="text-link" href="https://github.com/dass-s-c/Seg34-C11#支持机型--supported-models">查看完整机型</a></p>
+          <p class="support-copy"><a class="text-link" href="https://apps.garmin.com/apps/5e2d1f65-10e1-4c46-982b-9975ee0f48af">在 Connect IQ 下载 1.1.1</a>，支持 51 款 AMOLED 和 25 款 MIP 手表。fēnix 5、5X 和 5 Plus 默认显示月相、海拔和今日总消耗，不显示天气和日出日落。5 和 5X 在手机上设置，5 Plus 也支持表端设置。<a class="text-link" href="https://github.com/dass-s-c/Seg34-C11#支持机型--supported-models">查看完整机型</a></p>
         </div>
 
         <div class="support-col">

@@ -2,7 +2,13 @@
 
 ## 中文
 
-1.0.1 使用 Garmin 天气。以下列出从 1.1.0 起各机型使用的天气来源和权限。
+### 1.1.1
+
+表盘根据你的设置在手表上显示活动、健康和设备数据，开发者不收集这些数据。fēnix 5、5X 和 5 Plus 仅读取本机数据，使用传感器历史和用户资料权限显示相应指标。它们不请求天气，也不向第三方发送位置。其他机型使用 Garmin 天气，支持的机型还会在手表上使用位置计算日出和日落。
+
+### 旧版本
+
+1.0.1 使用 Garmin 天气。以下说明适用于 1.1.0 的第三方天气版本。
 
 Seg34-C11 在手表上读取用户选择显示的运动、健康和设备数据。开发者不接收这些数据。天气来源取决于机型。
 
@@ -23,7 +29,13 @@ Seg34-C11 在手表上读取用户选择显示的运动、健康和设备数据�
 
 ## English
 
-Version 1.0.1 uses Garmin weather. The following weather sources and permissions apply from version 1.1.0.
+### 1.1.1
+
+The watch face displays the activity, health and device data you select on your watch. The developer does not collect these data. The fēnix 5, 5X and 5 Plus use local readings with the Sensor History and User Profile permissions. They make no weather requests and send no location to third parties. Other models use Garmin weather. Supported models also use location on the watch to calculate sunrise and sunset.
+
+### Earlier versions
+
+Version 1.0.1 uses Garmin weather. The following information applies to the 1.1.0 build with third-party weather.
 
 Seg34-C11 reads the activity, health and device values you choose to display on your watch. The developer does not receive those values. The weather source depends on the watch model.
 

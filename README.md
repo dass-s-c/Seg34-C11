@@ -4,7 +4,7 @@
 
 [中文主页](https://dass-s-c.github.io/Seg34-C11/) · [English Site](https://dass-s-c.github.io/Seg34-C11/en.html) · [English README](#english)
 
-Seg34-C11 是 **dass** 基于开源表盘 [Segment34 Mk3](https://github.com/ludw/segment34mk3) 制作的中文改版，面向 Garmin AMOLED 手表。AMOLED 版 1.0.1 已在 [Connect IQ 商店](https://apps.garmin.com/apps/5e2d1f65-10e1-4c46-982b-9975ee0f48af)提供下载。
+Seg34-C11 是 **dass** 基于开源表盘 [Segment34 Mk3](https://github.com/ludw/segment34mk3) 制作的中文改版，面向 Garmin AMOLED 和 MIP 手表。1.1.1 已在 [Connect IQ 商店](https://apps.garmin.com/apps/5e2d1f65-10e1-4c46-982b-9975ee0f48af)提供下载。
 
 表盘中央用大号数码字显示时分，下方用专绘中文点阵字显示星期、农历日期和节气倒计时。可以直接在手表上调整布局、预览配色。
 
@@ -16,13 +16,13 @@ Seg34-C11 是 **dass** 基于开源表盘 [Segment34 Mk3](https://github.com/lud
       <a href=".github/images/fenix9-pro-47.png">
         <img src=".github/images/fenix9-pro-47.png" width="260" alt="fēnix 9 Pro 47 mm（AMOLED）日常表盘：顶部趋势图与两行天气、中央的大号时分数字、两侧进度条和秒数、24 px 中文公历农历节气日期栏，以及下方运动与底栏数据">
       </a><br>
-      <sub><b>fēnix 9 Pro · 47 mm</b><br>AMOLED · 454 × 454 · 24 px 点阵字<br>AMOLED 版 1.0.1 已上架</sub>
+      <sub><b>fēnix 9 Pro · 47 mm</b><br>AMOLED · 454 × 454 · 24 px 点阵字<br>AMOLED · 1.1.1</sub>
     </td>
     <td align="center">
       <a href=".github/images/fenix9-pro-solar-47.png">
         <img src=".github/images/fenix9-pro-solar-47.png" width="260" alt="fēnix 9 Pro Solar 47 mm（MIP）表盘预览：顶部趋势图、两行天气、大号时分数字与侧边秒数、15 px 中文日期栏和下方数据">
       </a><br>
-      <sub><b>fēnix 9 Pro Solar · 47 mm</b><br>MIP · 260 × 260 · 15 px 点阵字<br>MIP 版 1.1.0 待提交</sub>
+      <sub><b>fēnix 9 Pro Solar · 47 mm</b><br>MIP · 260 × 260 · 15 px 点阵字<br>MIP · 1.1.1</sub>
     </td>
   </tr>
 </table>
@@ -31,17 +31,17 @@ Seg34-C11 是 **dass** 基于开源表盘 [Segment34 Mk3](https://github.com/lud
 
 ## 主要特点
 
-- **天气独享两行，保留英文留白**：顶部为近 7 天活动趋势图，下方第一行可自定义 4 项天气指标（如温度、风力、湿度、体感温度或降水概率），第二行专留给英文天气状况（如 `PARTLY CLOUDY`），不与日历挤在一起。
+- **天气独享两行，保留英文留白**：顶端可选飞翼或趋势图。在支持天气的机型上，第一行可自定义 4 项天气指标（如温度、风力、湿度、体感温度或降水概率），第二行专留给英文天气状况（如 `PARTLY CLOUDY`），不与日历挤在一起。
 - **农历日期与节气倒计时**：时间下方显示月日、星期和农历日期。节气倒计时用淡色显示，节气当天恢复正常亮度。星期可选中文、英文或隐藏。
 - **秒数移入主时间旁，释放行末状态位**：两位秒数排在主时间右侧，日期行末腾出一个独立状态位——默认显示久坐等级，也可切为压力、身体电量、恢复时间或通知数，与主时间左右两侧的进度条彼此独立。
-- **专绘 Seg34 Block-Round 中文点阵字**：围绕星期、农历与节气用到的 45 个汉字逐字绘制，分为 **24 px**（主流 AMOLED）与 **15 px**（360×360 AMOLED 及后续 MIP）两套纯 1-bit 点阵字，小屏下笔画清晰且与主时间的数码字风格一致。
+- **专绘 Seg34 Block-Round 中文点阵字**：围绕星期、农历与节气用到的 45 个汉字逐字绘制，分为 **24 px**（主流 AMOLED）与 **15 px**（360×360 AMOLED 及 MIP）两套纯 1-bit 点阵字，小屏下笔画清晰且与主时间的数码字风格一致。
 - **更清晰的底栏与图标**：AMOLED 机型采用加粗底栏标题，底部数字支持 `点阵`、`混合`、`线条` 三种样式；电池、月相、像素通知气泡与中英文训练状态图标均针对小屏重新微调。
 
 <p align="center">
   <a href=".github/images/seg34-block-round-specimen.png">
     <img src=".github/images/seg34-block-round-specimen.png" width="540" alt="Seg34 Block-Round 中文点阵字对比：上排 24 px，下排 15 px，展示周、惊、蛰、满、霜、露六字">
   </a><br>
-  <sub><b>Seg34 Block-Round 中文点阵字</b>：上排 24 px（主流 AMOLED）· 下排 15 px（360×360 AMOLED / MIP，MIP 版尚未上架）</sub>
+  <sub><b>Seg34 Block-Round 中文点阵字</b>：上排 24 px（主流 AMOLED）· 下排 15 px（360×360 AMOLED / MIP）</sub>
 </p>
 
 ## 手表端分区设置与配色预览
@@ -81,9 +81,9 @@ Seg34-C11 是 **dass** 基于开源表盘 [Segment34 Mk3](https://github.com/lud
 
 ## 支持机型 / Supported models
 
-当前商店版本 1.0.1 覆盖 51 个 AMOLED SDK 设备目标（360×360 机型使用 15 px 点阵字，其余发布目标使用 24 px；具体可安装型号以商店设备列表为准）。以下按系列汇总：
+1.1.1 支持 76 款手表，包括 51 款 AMOLED 和 25 款 MIP。下表列出 AMOLED 机型，MIP 机型见表后。
 
-Version 1.0.1 is available on the Connect IQ Store and covers 51 AMOLED SDK device targets (360×360 models use the 15 px glyphs; other release targets use 24 px; see the store’s compatible device list). Models grouped by series:
+Version 1.1.1 supports 76 watches, including 51 AMOLED and 25 MIP models. AMOLED models are listed in the table, with MIP models below.
 
 | 系列 / Series | 机型 / Models |
 | --- | --- |
@@ -96,9 +96,13 @@ Version 1.0.1 is available on the Connect IQ Store and covers 51 AMOLED SDK devi
 | D2 | D2 Air X10 / X15、D2 Mach 1 / 1 Pro、D2 Mach 2 / 2 Pro |
 | tactix / quatix | tactix 7 AMOLED Edition、tactix 8 AMOLED（47 / 51 mm）、quatix 7 Sapphire / 7 Pro、quatix 8（47 / 51 mm） |
 
-1.1.0 已准备好，待提交商店。候选包含 25 个 MIP 目标，覆盖 fēnix 5、5X 和 5 Plus、6 Pro 系列、7 系列、8 Solar、9 Pro Solar、Enduro 3 / 4、Forerunner 255 系列（含两款 255S）和 955。
+25 款 MIP 手表包括 fēnix 5、5X 和 5 Plus、6 Pro 系列、7 系列、8 Solar、9 Pro Solar、Enduro 3 / 4、Forerunner 255 系列（含两款 255S）和 955。
 
-Version 1.1.0 is ready for submission. Its 25 MIP targets cover the fēnix 5, 5X and 5 Plus, 6 Pro and 7 families, 8 Solar, 9 Pro Solar, Enduro 3 and 4, Forerunner 255 family (including both 255S models), and 955.
+The 25 MIP models include the fēnix 5, 5X and 5 Plus, 6 Pro and 7 families, 8 Solar, 9 Pro Solar, Enduro 3 and 4, Forerunner 255 family (including both 255S models), and 955.
+
+fēnix 5、5X 和 5 Plus 默认显示月相、海拔和今日总消耗，不显示天气和日出日落。5 和 5X 在手机上设置，5 Plus 也支持表端设置。
+
+The fēnix 5, 5X and 5 Plus show moon phase, elevation and daily total calories by default. Weather and sunrise and sunset times are unavailable on these models. Configure the 5 and 5X on your phone. The 5 Plus also supports on-watch settings.
 
 ## 反馈与资料
 
@@ -114,16 +118,16 @@ Version 1.1.0 is ready for submission. Its 25 MIP targets cover the fēnix 5, 5X
 
 ## English
 
-Seg34-C11 is a Chinese edition of the open-source [Segment34 Mk3](https://github.com/ludw/segment34mk3) watch face, adapted by **dass** for Garmin AMOLED watches. The AMOLED edition (1.0.1) is available on the [Connect IQ Store](https://apps.garmin.com/apps/5e2d1f65-10e1-4c46-982b-9975ee0f48af). The MIP edition shown above is part of the 1.1.0 submission candidate.
+Seg34-C11 is a Chinese edition of the open-source [Segment34 Mk3](https://github.com/ludw/segment34mk3) watch face, adapted by **dass** for Garmin AMOLED and MIP watches. Version 1.1.1 is available on the [Connect IQ Store](https://apps.garmin.com/apps/5e2d1f65-10e1-4c46-982b-9975ee0f48af).
 
 Large digital numerals show the hours and minutes. The weekday, lunar date and solar-term countdown sit below. Adjust the layout and preview colors on the watch.
 
 ### Highlights
 
-- **Two dedicated weather lines**: A 7-day trend graph sits at the top, followed by four customizable weather metrics (such as temperature, wind, humidity, feels-like, or precipitation chance) and a clean English condition line (`PARTLY CLOUDY`), never crowded by the calendar.
+- **Two dedicated weather lines**: Choose Wings or a trend graph at the top. Models with weather support show four customizable weather metrics (such as temperature, wind, humidity, feels-like, or precipitation chance) and a clean English condition line (`PARTLY CLOUDY`), never crowded by the calendar.
 - **Lunar date and solar-term countdown**: The month, day, weekday and lunar date appear below the time. The solar-term countdown is dimmed until the day of the solar term, when it brightens. Show the weekday in Chinese or English, or hide it.
 - **Side seconds & extra status slot**: Moves two-digit seconds beside the clock, opening an independent status slot at the end of the date line—defaulting to Move Bar level, or switchable to stress, Body Battery, recovery time, or notifications—separate from the two vertical side bars.
-- **Original Seg34 Block-Round bitmap glyphs**: Drawn pixel by pixel for the 45 Chinese characters used across weekdays, lunar dates, and 24 solar terms in two pure 1-bit sizes—**24 px** for most AMOLED watches and **15 px** for 360×360 AMOLED models and MIP models in the 1.1.0 candidate.
+- **Original Seg34 Block-Round bitmap glyphs**: Drawn pixel by pixel for the 45 Chinese characters used across weekdays, lunar dates, and 24 solar terms in two pure 1-bit sizes—**24 px** for most AMOLED watches and **15 px** for 360×360 AMOLED models and MIP models.
 - **Spatial on-watch settings & live palette preview**: Built-in Chinese menus mirror the dial top-to-bottom across 5 groups (`配色样式` Colors & Style, `顶部天气` Top Weather, `时间侧条` Time Side Bar, `日期栏` Date Bar, `下方数据` Lower Data). Choosing Day or Night palettes previews the entire dial live on the watch before applying.
 - **Sharper lower dial & icons**: AMOLED models use bold lower labels with selectable `Dot`, `Hybrid`, or `Lines` numerals, larger battery and moon-phase icons, crisp pixel notification badges, and matched English/Chinese training status colors.
 
