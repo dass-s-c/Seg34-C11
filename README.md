@@ -4,7 +4,7 @@
 
 [中文主页](https://dass-s-c.github.io/Seg34-C11/) · [English Site](https://dass-s-c.github.io/Seg34-C11/en.html) · [English README](#english)
 
-Seg34-C11 是 **dass** 基于开源表盘 [Segment34 Mk3](https://github.com/ludw/segment34mk3) 制作的中文改版，面向 Garmin AMOLED 手表。AMOLED 版正准备在 Connect IQ 商店首发。
+Seg34-C11 是 **dass** 基于开源表盘 [Segment34 Mk3](https://github.com/ludw/segment34mk3) 制作的中文改版，面向 Garmin AMOLED 手表。AMOLED 版 1.0.1 已在 [Connect IQ 商店](https://apps.garmin.com/apps/5e2d1f65-10e1-4c46-982b-9975ee0f48af)提供下载。
 
 表盘中央用大号数码字显示时分，下方用专绘中文点阵字显示星期、农历日期和节气倒计时。可以直接在手表上调整布局、预览配色。
 
@@ -16,13 +16,13 @@ Seg34-C11 是 **dass** 基于开源表盘 [Segment34 Mk3](https://github.com/lud
       <a href=".github/images/fenix9-pro-47.png">
         <img src=".github/images/fenix9-pro-47.png" width="260" alt="fēnix 9 Pro 47 mm（AMOLED）日常表盘：顶部趋势图与两行天气、中央的大号时分数字、两侧进度条和秒数、24 px 中文公历农历节气日期栏，以及下方运动与底栏数据">
       </a><br>
-      <sub><b>fēnix 9 Pro · 47 mm</b><br>AMOLED · 454 × 454 · 24 px 点阵字<br>AMOLED 版准备首发上架</sub>
+      <sub><b>fēnix 9 Pro · 47 mm</b><br>AMOLED · 454 × 454 · 24 px 点阵字<br>AMOLED 版 1.0.1 已上架</sub>
     </td>
     <td align="center">
       <a href=".github/images/fenix9-pro-solar-47.png">
         <img src=".github/images/fenix9-pro-solar-47.png" width="260" alt="fēnix 9 Pro Solar 47 mm（MIP）表盘预览：顶部趋势图、两行天气、大号时分数字与侧边秒数、15 px 中文日期栏和下方数据">
       </a><br>
-      <sub><b>fēnix 9 Pro Solar · 47 mm</b><br>MIP · 260 × 260 · 15 px 点阵字<br>MIP 版尚未上架，后续会继续开发</sub>
+      <sub><b>fēnix 9 Pro Solar · 47 mm</b><br>MIP · 260 × 260 · 15 px 点阵字<br>MIP 版 1.1.0 待提交</sub>
     </td>
   </tr>
 </table>
@@ -81,9 +81,9 @@ Seg34-C11 是 **dass** 基于开源表盘 [Segment34 Mk3](https://github.com/lud
 
 ## 支持机型 / Supported models
 
-AMOLED 版正准备首发上架 Connect IQ 商店，覆盖 51 个 AMOLED SDK 设备目标（360×360 机型使用 15 px 点阵字，其余发布目标使用 24 px；具体可安装型号以上架后商店设备列表为准）。以下按系列汇总：
+当前商店版本 1.0.1 覆盖 51 个 AMOLED SDK 设备目标（360×360 机型使用 15 px 点阵字，其余发布目标使用 24 px；具体可安装型号以商店设备列表为准）。以下按系列汇总：
 
-The AMOLED edition is preparing for its Connect IQ Store launch, covering 51 AMOLED SDK device targets (360×360 models use the 15 px glyphs; other release targets use 24 px; check the store’s compatible device list once live). Models grouped by series:
+Version 1.0.1 is available on the Connect IQ Store and covers 51 AMOLED SDK device targets (360×360 models use the 15 px glyphs; other release targets use 24 px; see the store’s compatible device list). Models grouped by series:
 
 | 系列 / Series | 机型 / Models |
 | --- | --- |
@@ -96,9 +96,9 @@ The AMOLED edition is preparing for its Connect IQ Store launch, covering 51 AMO
 | D2 | D2 Air X10 / X15、D2 Mach 1 / 1 Pro、D2 Mach 2 / 2 Pro |
 | tactix / quatix | tactix 7 AMOLED Edition、tactix 8 AMOLED（47 / 51 mm）、quatix 7 Sapphire / 7 Pro、quatix 8（47 / 51 mm） |
 
-注：MIP 版（如 fēnix 9 Pro Solar 47 / 51 mm）尚未上架，后续会继续开发。
+1.1.0 已准备好，待提交商店。候选包含 25 个 MIP 目标，覆盖 fēnix 5、5X 和 5 Plus、6 Pro 系列、7 系列、8 Solar、9 Pro Solar、Enduro 3 / 4、Forerunner 255 系列（含两款 255S）和 955。
 
-Note: The MIP edition (such as fēnix 9 Pro Solar 47 / 51 mm) is not yet released and remains in development.
+Version 1.1.0 is ready for submission. Its 25 MIP targets cover the fēnix 5, 5X and 5 Plus, 6 Pro and 7 families, 8 Solar, 9 Pro Solar, Enduro 3 and 4, Forerunner 255 family (including both 255S models), and 955.
 
 ## 反馈与资料
 
@@ -114,7 +114,7 @@ Note: The MIP edition (such as fēnix 9 Pro Solar 47 / 51 mm) is not yet release
 
 ## English
 
-Seg34-C11 is a Chinese edition of the open-source [Segment34 Mk3](https://github.com/ludw/segment34mk3) watch face, adapted by **dass** for Garmin AMOLED watches. The AMOLED edition is being prepared for its first Connect IQ Store release. The MIP edition shown above is still in development and has yet to be released.
+Seg34-C11 is a Chinese edition of the open-source [Segment34 Mk3](https://github.com/ludw/segment34mk3) watch face, adapted by **dass** for Garmin AMOLED watches. The AMOLED edition (1.0.1) is available on the [Connect IQ Store](https://apps.garmin.com/apps/5e2d1f65-10e1-4c46-982b-9975ee0f48af). The MIP edition shown above is part of the 1.1.0 submission candidate.
 
 Large digital numerals show the hours and minutes. The weekday, lunar date and solar-term countdown sit below. Adjust the layout and preview colors on the watch.
 
@@ -123,7 +123,7 @@ Large digital numerals show the hours and minutes. The weekday, lunar date and s
 - **Two dedicated weather lines**: A 7-day trend graph sits at the top, followed by four customizable weather metrics (such as temperature, wind, humidity, feels-like, or precipitation chance) and a clean English condition line (`PARTLY CLOUDY`), never crowded by the calendar.
 - **Lunar date and solar-term countdown**: The month, day, weekday and lunar date appear below the time. The solar-term countdown is dimmed until the day of the solar term, when it brightens. Show the weekday in Chinese or English, or hide it.
 - **Side seconds & extra status slot**: Moves two-digit seconds beside the clock, opening an independent status slot at the end of the date line—defaulting to Move Bar level, or switchable to stress, Body Battery, recovery time, or notifications—separate from the two vertical side bars.
-- **Original Seg34 Block-Round bitmap glyphs**: Drawn pixel by pixel for the 45 Chinese characters used across weekdays, lunar dates, and 24 solar terms in two pure 1-bit sizes—**24 px** for most AMOLED watches and **15 px** for 360×360 AMOLED models and the upcoming MIP edition (not yet released; further development planned).
+- **Original Seg34 Block-Round bitmap glyphs**: Drawn pixel by pixel for the 45 Chinese characters used across weekdays, lunar dates, and 24 solar terms in two pure 1-bit sizes—**24 px** for most AMOLED watches and **15 px** for 360×360 AMOLED models and MIP models in the 1.1.0 candidate.
 - **Spatial on-watch settings & live palette preview**: Built-in Chinese menus mirror the dial top-to-bottom across 5 groups (`配色样式` Colors & Style, `顶部天气` Top Weather, `时间侧条` Time Side Bar, `日期栏` Date Bar, `下方数据` Lower Data). Choosing Day or Night palettes previews the entire dial live on the watch before applying.
 - **Sharper lower dial & icons**: AMOLED models use bold lower labels with selectable `Dot`, `Hybrid`, or `Lines` numerals, larger battery and moon-phase icons, crisp pixel notification badges, and matched English/Chinese training status colors.
 
